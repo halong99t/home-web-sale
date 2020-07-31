@@ -1,0 +1,124 @@
+body {
+    background-image: url(./view/img/Artboard\ 2@4x.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 450px;
+}
+
+.text-center > div {
+    align-self: center;
+    margin-top: 200px;
+}
+
+.user-img {
+    background-color: #0d1f23;
+    padding: 0 18px;
+    box-shadow: 0px 0px 30px #000000;
+}
+
+.img-user {
+    width: 120px;
+    height: 120px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.in-up{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    
+}
+.in-up > div {
+    margin-left: 20px;
+
+}
+
+.forgot{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.btn{
+    background-color:  rgba(37, 170, 37, 0.637);
+    border: none;
+    color: #ffffff;
+}
+
+#register{
+    display: none;
+}
+
+#login{
+    display: inline;
+}
+
+.form-control{
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  text-align: left;
+  border: 0;
+  outline: 0;
+  font-family: HelveticaNeue;
+}
+
+.content-admin{
+    background-color:  rgba(37, 170, 37, 0.637);
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 40%;
+    border-radius: 10px;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  #nav{
+    
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
